@@ -1,7 +1,7 @@
-minimalplone5
+minimalplone6
 =============
 
-This is a minimal buildout configuration for installing the latest Plone 5.
+This is a minimal buildout configuration for installing the latest Plone 6.
 
 Currently, I recommend to install the development version with unreleased
 packages. Therefore, the buildout extends files from buildout.coredev on github.
@@ -17,10 +17,10 @@ Prerequisites
 Install
 -------
 
-For the default configuration with the latest Plone 5 release::
+For the default configuration with the latest Plone 6 release::
 
-    $ git clone git@github.com:collective/minimalplone5.git
-    $ cd minimalplone5
+    $ git clone git@github.com:collective/minimalplone6.git
+    $ cd minimalplone6
     $ ./bootstrap.sh
 
 If you want to install the development version of Plone based buildout.coredev::
@@ -39,7 +39,7 @@ Fire up Zope and maybe the ZEO Server::
     $ ./bin/instance start
 
 Point your webbrowser to http://localhost:8080 (username admin, password admin)
-and install a Plone instance.
+and install a Plone instance (Volto or Classic).
 
 That's all, folks.
 
